@@ -1,0 +1,357 @@
+header {
+    padding: 60px 0px;
+}
+
+header nav ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(243, 87%, 12%);
+}
+
+header nav ul li a:hover::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: hsl(243, 87%, 12%);
+    position: absolute;
+    right: 0;
+    top: -6px;
+    transition: ease-in-out all 250ms;
+    
+}
+
+
+section.section-a {
+    height: 80vh;
+    width: 100%;
+    background-color: #fff;
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+section.section-a .left h1 {
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+section.section-a .left p {
+    font-family: 'open sans';
+    font-size: 19px;
+    font-weight: 400;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 25px;
+}
+
+section.section-a .left form input {
+    padding: 15px 30px;
+    width: 45%;
+    margin-right: 10px;
+    border: 1px solid hsl(243, 87%, 12%);
+}
+
+section.section-a .left form a {
+    background-color: hsl(224, 93%, 58%);
+    padding: 15px 30px;
+    display: inline-block;
+    width: 25%;
+    color: #fff;
+    font-family: 'raleway';
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;   
+}
+
+section.section-a .right {
+    height: auto;
+    width: 100%;
+}
+
+.banner-container{
+    margin-top: 20px;
+}
+
+section.section-a .right img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+section.section-b {
+    height: 80vh;
+    width: 100%;
+    background-color: #F8F8FE;
+    
+}
+
+section.section-b .left h2 {
+    font-family: Raleway;
+    font-size: 39px;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+section.section-b .left p {
+    font-family: 'open sans';
+    font-size: 19px;
+    font-weight: 400;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 22px;
+    line-height: 1.8;
+}
+
+section.section-b .right .illustration-2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+section.section-b .left button {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F8F8FE;
+    margin-bottom: 30px;
+
+}
+
+section.section-b .left button a {
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 20px;
+    font-family: 'open sans';
+    color: hsl(170, 45%, 43%);  
+}
+
+section.section-b .left button a::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: hsl(170, 45%, 43%);  
+    margin-bottom: 8px;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    color: hsl(243, 87%, 12%);
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #00000099;
+    display: flex;
+    flex-direction: column;
+    font-family: 'open sans';
+    border-radius: 5px;
+
+}
+
+.card .quote svg {
+    margin-bottom: 10px;
+    color: hsl(243, 87%, 12%);
+}
+
+.card article {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'open sans';
+    font-weight: 400;
+    line-height: 1.6;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 20px;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-pic {
+    height: 50px;
+    width: 50px;
+    place-items: center;
+    margin-right: 10px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-name {
+    color: hsl(243, 87%, 12%);
+}
+
+.profile-name h3 {
+    font-size: 14px;
+    font-weight: 700;  
+}
+
+.profile-name h4 {
+    font-size: 10px;
+    font-weight: 400;  
+}
+
+.illustration-2 {
+    margin-top: 30px;
+}
+
+footer {
+    width: 100%;
+}
+
+footer .top-section {
+    padding: 70px;
+    height: auto;
+    background-color: hsl(238, 22%, 44%);
+}
+
+footer .top-section .left h2 {
+    font-size: 40px;
+    font-family: 'raleway';
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    
+}
+
+footer .top-section .left p {
+    width: 80%;
+    font-size: 16px;
+    font-family: 'Open sans';
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+footer .right form input {
+    padding: 14px 30px;
+    width: 80%;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer .right a {
+    background-color: hsl(224, 93%, 58%);
+    padding: 12px 25px;
+    display: inline-block;
+    width: 25%;
+    color: #fff;
+    font-family: 'raleway';
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+footer .bottom-section {
+    padding: 80px;
+    height: auto;
+    background-color: hsl(243, 87%, 12%);
+}
+
+footer .bottom-section .logo {
+    color: #fff; 
+}
+
+footer .bottom-section .logo img {
+    padding: 20px;
+    color: #fff;
+    
+}
+
+footer .bottom-section ul {
+    list-style-type: none;
+}
+
+footer .bottom-section ul li {
+    margin-bottom: 20px;
+}
+
+footer .bottom-section ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'open sans';
+}
+
+.social-links {
+    display: flex;
+    justify-content: right;
+    color: #fff;
+}
+
+.social-links ul {
+    list-style-type: none;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.social-links ul li a {
+    text-decoration: none;
+    height: 12px;
+    width: 12px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
